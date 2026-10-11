@@ -1,0 +1,62 @@
+{
+  "accuracy": 1.0,
+  "classification_report": {
+    "Alert": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Drowsy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      0
+    ],
+    [
+      0,
+      10
+    ]
+  ],
+  "train_sessions": [
+    "DEMO_S01",
+    "DEMO_S03",
+    "DEMO_S04",
+    "DEMO_S05",
+    "DEMO_S07",
+    "DEMO_S08"
+  ],
+  "test_sessions": [
+    "DEMO_S02",
+    "DEMO_S06"
+  ],
+  "feature_names": [
+    "perclos",
+    "ear_mean",
+    "head_away_ratio",
+    "hr_mean",
+    "hr_std",
+    "spo2_min",
+    "alcohol_mean"
+  ],
+  "note": "Interpret cautiously, especially for small or synthetic datasets."
+}

@@ -1,0 +1,1 @@
+All DEMO_S*.csv files are synthetic. Do not report their model metrics as real-world validation. Replace with real, consented prototype data.

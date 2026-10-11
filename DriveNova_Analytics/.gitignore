@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+venv/
+*.pyc
+models/*.joblib
+data/raw/*.csv
+data/clean_data.csv
+data/features.csv
+reports/*.png
+.DS_Store
